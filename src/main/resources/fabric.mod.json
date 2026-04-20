@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "mono",
+	"version": "${version}",
+	"name": "Mono",
+	"description": "An all-in-one utility mod for my Femboy Heaven modpack",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "AGPL-3.0",
+	"icon": "assets/mono/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dev.hoppou.mono.Mono"
+		],
+		"client": [
+			"dev.hoppou.mono.client.MonoClient"
+		],
+		"fabric-datagen": [
+			"dev.hoppou.mono.client.MonoDataGenerator"
+		]
+	},
+	"mixins": [
+		"mono.mixins.json",
+		{
+			"config": "mono.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
