@@ -3,9 +3,9 @@
 	"id": "mono",
 	"version": "${version}",
 	"name": "Mono",
-	"description": "An all-in-one utility mod for my Femboy Heaven modpack",
+	"description": "An all-in-one utility mod for my Femboy Heaven modpack.",
 	"authors": [
-		"Me!"
+		"OrdinaryHoppou"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
