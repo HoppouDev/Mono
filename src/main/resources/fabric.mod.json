@@ -8,8 +8,8 @@
 		"OrdinaryHoppou"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://hoppou.dev/",
+		"sources": "https://github.com/HoppouDev/Mono"
 	},
 	"license": "AGPL-3.0",
 	"icon": "assets/mono/icon.png",
